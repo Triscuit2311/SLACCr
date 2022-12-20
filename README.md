@@ -3,7 +3,7 @@
 
 
 ### RP2040 hardware-based human interface device (HID) Emulator.
-
+### License: [MIT](/LICENSE)
 
 ## Features
 - USB Keyboard Emulation
@@ -16,11 +16,6 @@
 - Aquire a Unique USB Vendor & Product ID
 - Port firmware to bare metal
 - Dynamic USB Descriptor Generation
-
-
-## License
-
-[MIT](/LICENSE)
 
 
 ## API Reference (WIP)
