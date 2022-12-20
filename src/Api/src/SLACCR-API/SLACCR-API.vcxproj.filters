@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{c78650a6-3c8f-454e-8023-b7e4b92b07b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Peripherals">
+      <UniqueIdentifier>{bb370f4e-dc76-4bf8-ac76-b7b1aa7c08b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Peripherals\Mouse">
+      <UniqueIdentifier>{f3121168-33a3-47a2-a2c9-1dafe8bd9e01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Peripherals\Keyboard">
+      <UniqueIdentifier>{b47d594a-fac7-459a-ba50-d9ee267db32a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Utility">
+      <UniqueIdentifier>{b297c71c-ee5d-40f4-a4b2-fac06a4409d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Utility\PacketManager">
+      <UniqueIdentifier>{cc7c4ad4-c02b-4461-a512-41b8bfb64275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Utility\SerialIO">
+      <UniqueIdentifier>{5ba414ac-0bd4-4db2-9e05-dd100e50695a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Slaccr">
+      <UniqueIdentifier>{6575efd7-9ea2-4634-9c12-9b87f7c8899d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules\Peripherals\Gamepad">
+      <UniqueIdentifier>{b68ffcb1-c99e-4b5a-8877-4b72af11650f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="API">
+      <UniqueIdentifier>{b61954aa-94fa-45d6-a59f-ac8e7cf1a406}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Modules\Peripherals\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Modules\Peripherals\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialIO.h">
+      <Filter>Modules\Utility\SerialIO</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketManager.h">
+      <Filter>Modules\Utility\PacketManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Slaccr_Controller.h">
+      <Filter>Slaccr</Filter>
+    </ClInclude>
+    <ClInclude Include="Gamepad.h">
+      <Filter>Modules\Peripherals\Gamepad</Filter>
+    </ClInclude>
+    <ClInclude Include="SLACCR_API.h">
+      <Filter>API</Filter>
+    </ClInclude>
+    <ClInclude Include="Peripherals.h">
+      <Filter>Slaccr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Modules\Peripherals\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Modules\Peripherals\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketManager.cpp">
+      <Filter>Modules\Utility\PacketManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SerialIO.cpp">
+      <Filter>Modules\Utility\SerialIO</Filter>
+    </ClCompile>
+    <ClCompile Include="Slaccr_Controller.cpp">
+      <Filter>Slaccr</Filter>
+    </ClCompile>
+    <ClCompile Include="Gamepad.cpp">
+      <Filter>Modules\Peripherals\Gamepad</Filter>
+    </ClCompile>
+    <ClCompile Include="SLACCR_API.cpp">
+      <Filter>API</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
