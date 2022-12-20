@@ -26,7 +26,7 @@
 
 ### Mouse
 |Function|Parameters|Description|
-|:-|:-|:-|:-|
+|:-|:-|:-|
 | MouseApprox|`x: int``y: int`|Moves mouse via approximation based on calibration test.|
 
 
