@@ -18,9 +18,16 @@
 
 ## API Reference (WIP)
 
+### General
 |Function|Parameters|Return|Description|
 |:-|:-|:-|:-|
 | Init | `calibrateMouse: bool` | `bool` | Initializes and attempts to connect to the hardware. |
-| DIsconnect|none|none|Cleans up peripherals and disconnects from the SLACCr hardware.|
+| Disconnect|none|none|Cleans up peripherals and disconnects from the SLACCr hardware.|
+
+### Mouse
+|Function|Parameters|Description|
+|:-|:-|:-|:-|
+| MouseApprox|`x: int``y: int`|Moves mouse via approximation based on calibration test.|
+
 
 
