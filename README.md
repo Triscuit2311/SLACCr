@@ -1,7 +1,5 @@
 ![SLACCr](https://socialify.git.ci/Triscuit2311/SLACCr/image?description=1&descriptionEditable=Not-So-Human%20Interface%20Device.&font=Source%20Code%20Pro&language=1&name=1&owner=1&pattern=Circuit%20Board&stargazers=1&theme=Dark)
 
-
-
 ### RP2040 hardware-based human interface device (HID) Emulator.
 ### License: [MIT](/LICENSE)
 
