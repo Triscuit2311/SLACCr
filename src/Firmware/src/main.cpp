@@ -1,7 +1,5 @@
 #include "Boot/boot.h"
 
-
-
 void setup() {
   core_0_initialize();
 }

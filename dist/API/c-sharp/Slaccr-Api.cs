@@ -1,4 +1,5 @@
-﻿
+﻿/* Copyright (c) 2022 Dante Trisciuzzi */
+
 using System.Runtime.InteropServices;
 
 /// <summary>

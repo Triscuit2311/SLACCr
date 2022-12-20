@@ -1,3 +1,5 @@
+## Copyright (c) 2022 Dante Trisciuzzi ##
+
 import os
 import sys
 import ctypes

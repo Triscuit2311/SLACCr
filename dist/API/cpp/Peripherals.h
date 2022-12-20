@@ -1,3 +1,5 @@
+/* Copyright (c) 2022 Dante Trisciuzzi */
+
 #pragma once
 
 namespace Peripherals
