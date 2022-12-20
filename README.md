@@ -21,5 +21,6 @@
 |Function|Parameters|Return|Description|
 |:-|:-|:-|:-|
 | Init | `calibrateMouse: bool` | `bool` | Initializes and attempts to connect to the hardware. |
+| DIsconnect|none|none|Cleans up peripherals and disconnects from the SLACCr hardware.|
 
 
