@@ -9,12 +9,18 @@
 - USB Gamepad Emulation
 - Simple API interfaces for C++, C#, and Python
 - Uses both cores of the RP2040, it's fast.
-## Roadmap
 
+
+## What, Why?
+- Firmware uses the community-driven arduino framework for the Raspberry Pi Pico, this makes it ewasy for end-users to setup with drag-and-drop firmware install.
+- Accessibility is the name of the game! This project should serve as a resource for developers to create alternate interfaces for tech that does not support software input.
+
+
+## Roadmap
 - Aquire a Unique USB Vendor & Product ID
 - Port firmware to bare metal
 - Dynamic USB Descriptor Generation
-
+- Split API into cross-platform and windows-specific versions
 
 ## API Reference (WIP)
 
