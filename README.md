@@ -15,6 +15,11 @@
 - Firmware uses the community-driven arduino framework for the Raspberry Pi Pico, this makes it ewasy for end-users to setup with drag-and-drop firmware install.
 - Accessibility is the name of the game! This project should serve as a resource for developers to create alternate interfaces for tech that does not support software input.
 
+## TO-DO
+- Add Examples (WIP Eye tracking and facial recognition apps!)
+- Refactor APIs to be more uniform across all three HID Options
+- Write more documentation
+
 
 ## Roadmap
 - Aquire a Unique USB Vendor & Product ID
