@@ -65,14 +65,15 @@ class slaccr_instance:
                     return
             self.__imported_lib.MouseValue(x,y)
 
-    def MouseClick( self, button):
+    def MouseClick( self, button, delay):
             """Performs a Mouse click (Press-delay-release).
 
             Args:
-                    button: Peripherals::MouseButton code"""
+                    button: Peripherals::MouseButton code
+                    delay: downtime"""
             if not self.__init_check():
                     return
-            self.__imported_lib.MouseClick(button)
+            self.__imported_lib.MouseClick(button, delay)
 
     def MousePress( self, button):
             """Performs a mouse press (down only).
