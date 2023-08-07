@@ -12,7 +12,7 @@
 
 
 ## What, Why?
-- Firmware uses the community-driven arduino framework for the Raspberry Pi Pico, this makes it ewasy for end-users to setup with drag-and-drop firmware install.
+- Firmware uses the community-driven arduino framework for the Raspberry Pi Pico, this makes it easy for end-users to setup with drag-and-drop firmware install.
 - Accessibility is the name of the game! This project should serve as a resource for developers to create alternate interfaces for tech that does not support software input.
 
 ## TO-DO
